@@ -13,9 +13,7 @@ function Home() {
       <TopNavigation />
       <h1>Home</h1>
       <h2>Welcome {storeObj.loginReducer.userDetails.name}</h2>
-      <img
-        src={`http://localhost:4567/${storeObj.loginReducer.userDetails.profilePic}`}
-      ></img>
+      <img src={`/${storeObj.loginReducer.userDetails.profilePic}`}></img>
     </div>
   );
 }
